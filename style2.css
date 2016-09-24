@@ -1,0 +1,104 @@
+}
+/*selector, property:value-->
+	colors: name, #..., rgb e rgba. O "a" é opacity
+	monospace letra mesmo tamanho, cursiva
+	line-height é a altura do texto mais um espaço para "respirar"
+	dá pra aumentar a font no navegador se for só para twstar- pq não salva*/
+
+/* border-radius é a borda redonda. padding margem dentro. margin borda fora. border - shadow para sombra (sempre p dir, baixo, cruxzado, central)- TUDO DENTRO DE DIV.*/
+
+/*Standart formating*/
+body {
+	background: rgb(245,245,245);
+	color:green;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif; /*a lobster é bem usada também*/
+	color: gray;
+	font-weight: bold;
+	font-size:60px;
+	margin-top: 240px;
+}
+
+h2 {
+  font-family: Courier;
+  color: #363636;
+  font-weight: bold;
+  font-size: 20px;
+	padding: 0px;
+}
+
+h3 {
+  font-family: Courier;
+  color: #191970;
+  font-weight: lighter;
+  font-size: 18px;
+	padding: 0px;
+	text-align: justify;;
+}
+
+h4 {
+  font-family: Courier;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+	padding: 0px;
+	text-align: justify;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+ }
+
+
+ p {
+ 	text-align: justify;
+ }
+
+
+  /*serve para o que acontecerá quando selecionar*/
+
+/*Specifics formating*/
+
+#header {
+  text-align: center;
+  background: url("http://digitalnomad.nationalgeographic.com/files/2012/02/Chichen-Itza.jpg");
+  background-size: cover;
+  height: 700px;
+  padding: 50px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+.card {
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer {
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+
+#footer a:hover {
+  color: white;
+  position: absolute;
+}
+
+.imagec {
+	align: center;
+}
